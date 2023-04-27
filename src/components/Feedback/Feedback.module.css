@@ -1,12 +1,11 @@
-.Feedback{
-    width:600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(191, 16, 69);
-    text-align: center;
-    border-radius: 8px;
-    padding: 16px;
-    color:rgb(255, 255, 255);
+.Feedback__buttn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(236, 227, 213, 0.385);
+    color:rgb(245, 244, 243);
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .Feedback__buttn:not(:last-child){
@@ -16,25 +15,4 @@
 .Feedback__buttn:hover,
 .Feedback__buttn:focus {
     box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.436);
-}
-
-.Feedback__buttnGood, .Feedback__buttnNeutr, .Feedback__buttnBad{
-padding: 10px 15px;
-border: none;
-border-radius: 16px;
-background-color: rgba(236, 227, 213, 0.385);
-color:rgb(245, 244, 243);
-font-size: 16px;
-cursor: pointer;
-
-}
-
-.icon{
-    margin-right: 5px;
-}
-
-.Feedback__display{
-    display: flex;
-    flex-direction: column;
-
 }
